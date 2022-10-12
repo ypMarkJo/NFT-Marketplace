@@ -8,12 +8,12 @@ require('dotenv').config();
 const Web3 = require('web3');
 const walletAddressValidator = require('wallet-address-validator');
 
-const kovanNetwork = 'https://kovan.infura.io/v3/e96fe621da8c4861a7985933e5312970';
+const kovanNetwork = '';
 
 const web3 = new Web3(kovanNetwork);
-const contractAddress = '0xC83393fCf17a5575cD9D8702493536aaE803916D';
-const callerPrivateKey = '7c968debcf172bee7a01ba8a3b7787b6f3d869d324a1e3d24d0e098f717ffb17';
-const contractCaller = '0x6a2db060C153F3d11A4EBB855CEA4a00f32b5a56';
+const contractAddress = '';
+const callerPrivateKey = '';
+const contractCaller = '';
 
 const NFTModel = require('../../../../models/nftmockup');
 const TransactionModel = require('../../../../models/transaction');
