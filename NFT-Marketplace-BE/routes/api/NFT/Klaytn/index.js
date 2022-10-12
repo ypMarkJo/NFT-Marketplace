@@ -11,9 +11,9 @@ const walletAddressValidator = require('wallet-address-validator');
 const Caver = require('caver-js');
 
 const caver = new Caver('https://api.baobab.klaytn.net:8651');
-const contractAddress = '0x6484a351b58C65331787cFbFfC0a8C968F72F287';
-const callerPrivatekey = '0x6a349ab5b68d96d631e81266d09c4974e6faa9d1f38ae1de021756561227015c';
-const contractCaller = '0xAb1108E0a9F5606852de667180a16D1F77C5653C';
+const contractAddress = '';
+const callerPrivatekey = '';
+const contractCaller = '';
 //  [Configure DBSchema]
 const NFTModel = require('../../../../models/nftmockup');
 const TransactionModel = require('../../../../models/transaction');
